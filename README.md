@@ -30,7 +30,7 @@ It listens to http://stream.pushshift.io and saves all events in MongoDB.
 As system uses embedded MongoDB, on service stop all collected data will be lost.
 
 All /event/list/ endpoints e.g. http://localhost:7070/event/list/all returns event
-identifiers and path how to get all data about event e.g. http://localhost:7070/event/32351844347
+metadata and path how to get all data about event e.g. http://localhost:7070/event/32351844347
 
 ### Why
 
